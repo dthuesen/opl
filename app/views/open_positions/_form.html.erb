@@ -1,0 +1,25 @@
+<%= simple_form_for(@open_position) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :number %>
+    <%= f.input :summary %>
+    <%= f.input :description %>
+    <%= f.input :option %>
+    <%= f.input :component %>
+    <%= f.input :category %>
+    <%= f.input :prio %>
+    <%= f.input :responsible %>
+    <%= f.input :state %>
+    <%= f.input :costmodel %>
+    <%= f.input :affects_version %>
+    <%= f.input :issue_ticket %>
+    <%= f.input :ticket_text %>
+    <%= f.input :notes %>
+    <%= f.input :in_sprint %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+class OpenPosition < ApplicationRecord
+end

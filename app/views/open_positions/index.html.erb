@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Open Positions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Summary</th>
+      <th>Description</th>
+      <th>Option</th>
+      <th>Component</th>
+      <th>Category</th>
+      <th>Prio</th>
+      <th>Responsible</th>
+      <th>State</th>
+      <th>Costmodel</th>
+      <th>Affects version</th>
+      <th>Issue ticket</th>
+      <th>Ticket text</th>
+      <th>Notes</th>
+      <th>In sprint</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @open_positions.each do |open_position| %>
+      <tr>
+        <td><%= open_position.number %></td>
+        <td><%= open_position.summary %></td>
+        <td><%= open_position.description %></td>
+        <td><%= open_position.option %></td>
+        <td><%= open_position.component %></td>
+        <td><%= open_position.category %></td>
+        <td><%= open_position.prio %></td>
+        <td><%= open_position.responsible %></td>
+        <td><%= open_position.state %></td>
+        <td><%= open_position.costmodel %></td>
+        <td><%= open_position.affects_version %></td>
+        <td><%= open_position.issue_ticket %></td>
+        <td><%= open_position.ticket_text %></td>
+        <td><%= open_position.notes %></td>
+        <td><%= open_position.in_sprint %></td>
+        <td><%= link_to 'Show', open_position %></td>
+        <td><%= link_to 'Edit', edit_open_position_path(open_position) %></td>
+        <td><%= link_to 'Destroy', open_position, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Open Position', new_open_position_path %>

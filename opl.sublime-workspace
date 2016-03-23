@@ -45,10 +45,29 @@
 	},
 	"expanded_folders":
 	[
-		"/home/dthuesen/workspace/opl"
+		"/home/dthuesen/workspace/opl",
+		"/home/dthuesen/workspace/opl/app",
+		"/home/dthuesen/workspace/opl/app/controllers",
+		"/home/dthuesen/workspace/opl/app/models",
+		"/home/dthuesen/workspace/opl/app/views",
+		"/home/dthuesen/workspace/opl/app/views/layouts",
+		"/home/dthuesen/workspace/opl/app/views/open_positions",
+		"/home/dthuesen/workspace/opl/app/views/pages",
+		"/home/dthuesen/workspace/opl/config",
+		"/home/dthuesen/workspace/opl/db",
+		"/home/dthuesen/workspace/opl/db/migrate",
+		"/home/dthuesen/workspace/opl/lib"
 	],
 	"file_history":
 	[
+		"/home/dthuesen/workspace/opl/app/controllers/open_positions_controller.rb",
+		"/home/dthuesen/workspace/opl/Gemfile",
+		"/home/dthuesen/workspace/opl/app/views/pages/home.html.erb",
+		"/home/dthuesen/workspace/opl/config/routes.rb",
+		"/home/dthuesen/workspace/opl/app/views/pages/index.html.erb",
+		"/home/dthuesen/workspace/opl/app/jobs/application_job.rb",
+		"/home/dthuesen/workspace/opl/app/models/application_record.rb",
+		"/home/dthuesen/workspace/opl/spec/index_spec.rb",
 		"/etc/apache2/ports.conf",
 		"/home/dthuesen/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
 	],
@@ -96,7 +115,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -167,7 +186,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
